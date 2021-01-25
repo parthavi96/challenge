@@ -39,9 +39,6 @@ class Register extends React.Component
             name:event.target.name
         })
 
-        alert(payload.username)
-        alert(payload.password)
-        alert(payload.name)
         fetch('https://divercity-test.herokuapp.com/register',{
             method:'POST',
             headers:{
