@@ -1,0 +1,79 @@
+.jobList ul li {
+  list-style: none;
+}
+
+.jobList {
+  margin-top: 3%;
+  padding: 1% 2%;
+  text-align: left;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.jobList label {
+  padding: 0% 2% 0% 5%;
+}
+.jobList li {
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: "Raleway", serif;
+}
+
+.SG {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.SG .sgLi {
+  min-width: 24%;
+  margin: 2% 0.35%;
+  display: inline-flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.SG .sgLi:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.SG .box {
+  width: 100%;
+  padding: 1% 2%;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.jobList h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 72px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 15px;
+}
+.ddCss {
+  width: 200px;
+}
+.btncss {
+  float: right;
+  background-color: #3172e2;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+}
+.btncss:hover {
+  background-color: #1752b0;
+}
+
+/* responsive grid*/
+@media (max-width: 970px) {
+  .SG .sgLi {
+    width: 180px;
+  }
+}
+@media (max-width: 425px) {
+  .SG .sgLi {
+    width: 100%;
+  }
+}
